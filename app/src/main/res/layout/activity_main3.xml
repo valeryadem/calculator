@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="16dp"
+            android:text="МЕЛКИЕ ТРАТЫ"
+            android:textColor="@color/black"
+            android:textSize="50px" />
+
+        <TextView
+            android:id="@+id/tansport_0"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginLeft="50dp"
+            android:ems="10"
+            android:textSize="20dp"
+            android:paddingLeft="12dp"
+            android:text="транспорт"
+            android:textColor="@color/black"/>
+
+        <EditText
+            android:id="@+id/tansport_1"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginLeft="50dp"
+            android:ems="10"
+            android:hint="стоимость"
+            android:inputType="numberDecimal"
+            app:layout_gravity="center_horizontal" />
+
+        <EditText
+            android:id="@+id/tansport_2"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginLeft="50dp"
+            android:ems="10"
+            android:hint="количество в неделю"
+            android:inputType="numberDecimal" />
+
+        <TextView
+            android:id="@+id/medicines_0"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:textSize="20dp"
+            android:paddingLeft="12dp"
+            android:text="лекарства"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/medicines_1"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginLeft="50dp"
+            android:ems="10"
+            android:hint="стоимость"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/medicines_2"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginLeft="50dp"
+            android:ems="10"
+            android:hint="количество в неделю"
+            android:inputType="numberDecimal" />
+
+        <TextView
+            android:id="@+id/fastfood_0"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:textSize="20dp"
+            android:paddingLeft="12dp"
+            android:text="фастфуд"
+            android:textColor="@color/black" />
+
+
+        <EditText
+            android:id="@+id/fastfood_1"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginLeft="50dp"
+            android:ems="10"
+            android:hint="стоимость"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/fastfood_2"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginLeft="50dp"
+            android:ems="10"
+            android:hint="количество в неделю"
+            android:inputType="numberDecimal" />
+
+        <TextView
+            android:id="@+id/cigarettes_0"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:textSize="20dp"
+            android:paddingLeft="12dp"
+            android:text="сигареты"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/cigarettes_1"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginLeft="50dp"
+            android:ems="10"
+            android:hint="стоимость"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/cigarettes_2"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginLeft="50dp"
+            android:ems="10"
+            android:hint="количество в неделю"
+            android:inputType="numberDecimal" />
+
+        <TextView
+            android:id="@+id/coffee_0"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:textSize="20dp"
+            android:paddingLeft="12dp"
+            android:text="кофе"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/coffee_1"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginLeft="50dp"
+            android:ems="10"
+            android:hint="стоимость"
+            android:inputType="numberDecimal" />
+
+
+        <EditText
+            android:id="@+id/coffee_2"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginLeft="50dp"
+            android:ems="10"
+            android:hint="количество в неделю"
+            android:inputType="numberDecimal" />
+
+
+        <TextView
+            android:id="@+id/businesslunch_0"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:textSize="20dp"
+            android:paddingLeft="12dp"
+            android:text="бизнес-ланч"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/businesslunch_1"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginLeft="50dp"
+            android:ems="10"
+            android:hint="стоимость"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/businesslunch_2"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginLeft="50dp"
+            android:ems="10"
+            android:hint="количество в неделю"
+            android:inputType="numberDecimal" />
+
+        <TextView
+            android:id="@+id/secretspending_0"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:textSize="20dp"
+            android:paddingLeft="12dp"
+            android:text="секретная трата"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/secretspending_1"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginLeft="50dp"
+            android:ems="10"
+            android:hint="стоимость"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/secretspending_2"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginLeft="50dp"
+            android:ems="10"
+            android:hint="количество в неделю"
+            android:inputType="numberDecimal" />
+
+        <Button
+            android:id="@+id/calculate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="50dp"
+            android:background="#4D5138"
+            android:onClick="calculate"
+            android:text="рассчитать"
+            app:backgroundTint="#4E513F" />
+
+
+    </LinearLayout>
+
+</ScrollView>
